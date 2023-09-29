@@ -253,7 +253,7 @@ a:focus {
 }
 
 .slider_item-container {
-  width: 90%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -364,10 +364,9 @@ a:focus {
 }
 
 .about_img-container {
-  width: 225px;
+  width: 400px;
   background-color: #1ba1b9;
-  height: 225px;
-  border-radius: 100%;
+  height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -376,7 +375,7 @@ a:focus {
 }
 
 .about_card .about_img-box {
-  width: 75px;
+  width: 400px;
 }
 
 .about_card .about-detail p {
@@ -454,23 +453,24 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .feature_img-container {
-  background-color: #1ba1b9;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 190px;
+  height: 450px;
   border-radius: 10px;
 }
 
 .feature_img-box {
-  width: 100px;
+  width: 400px;
 }
 
 .feature_card {
-  width: 300px;
+  width: 350px;
   padding: 0 15px;
   margin: 35px 0;
 }
@@ -481,6 +481,7 @@ a:focus {
 
 .feature_card img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .feature_detail-box {
