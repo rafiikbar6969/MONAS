@@ -364,9 +364,9 @@ a:focus {
 }
 
 .about_img-container {
-  width: 400px;
-  background-color: #1ba1b9;
-  height: 400px;
+  width: 320px;
+  background-color: #f7f7f7;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,6 +427,23 @@ a:focus {
 .who_section .who_deail-box p {
   margin: 45px 0 50px 0;
 }
+.gallery{
+  display: inline-block;
+  background-color: #fddd33;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 22px;
+}
+
+.pkb{
+  display: inline-block;
+  background-color: #fddd33;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px 22px;
+}
 
 .who_section .who_deail-box a {
   display: inline-block;
@@ -453,7 +470,6 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .feature_img-container {
@@ -466,13 +482,12 @@ a:focus {
 }
 
 .feature_img-box {
-  width: 400px;
+  width: 300px;
 }
 
 .feature_card {
   width: 350px;
   padding: 0 15px;
-  margin: 35px 0;
 }
 
 .feature_card h5 {

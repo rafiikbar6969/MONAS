@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/data.css">
 </head>
 <style>
     .data{
@@ -12,12 +13,20 @@
     }
 </style>
 <body>
+    <div class="container">
+    <input type="text" id="searchInput" placeholder="Masukkan NOPOL" />
+    <button id="searchButton" onclick="searchData()">Cari</button>
+    <button id="downloadButton" onclick="downloadData()">Download Data</button>
+    <div id="displayArea">
+    <!-- OUTPUT DATA -->
+    
+    </div>
+</div>
     <div class="data">
-        <iframe height="750px" width="100%" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTdsDqGH-xRvwC-lpykpnXMKPjA8ZNJMXRtcqb2N5onGp4TLix9Fgiv6O-7xsOvgw/pubhtml?gid=1695816433&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+        <iframe width="70%" height="700px" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTfTBspM_8Wl7Kki2oDWbU__CxMKOmiPXYAoSyHlYEFA1rJoo4yCWS7T2O8w3okhg/pubhtml?widget=true&amp;headers=false"></iframe>
     </div>
 
-    <button>
-        <a href="https://docs.google.com/spreadsheets/d/1xlVnS2y1bRKD9D6afeSLxDmee_pyLyQD/edit?usp=sharing&ouid=105912942259654667976&rtpof=true&sd=true">download data</a>
-    </button>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.15/xlsx.full.min.js"></script>
+    <script src="js/api.js"></script>
 </body>
 </html>
