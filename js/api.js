@@ -1,7 +1,7 @@
 function searchData() {
   const searchTerm = document.getElementById("searchInput").value;
 
-  const apiUrl = `http://localhost:3001/data-2022/search?term=${searchTerm}`;
+const apiUrl = `https://cyan-wandering-wasp.cyclic.cloud/data-2022?term=${searchTerm}`;
 
   fetch(apiUrl)
     .then((response) => {
@@ -79,7 +79,7 @@ function downloadData() {
 function getDataForDownload() {
   const searchTerm = document.getElementById("searchInput").value;
 
-  const apiUrl = `http://localhost:3001/data-2022/search?term=${searchTerm}`;
+  const apiUrl = `https://cyan-wandering-wasp.cyclic.cloud/data-2022?term=${searchTerm}`;
 
   return fetch(apiUrl)
     .then((response) => {

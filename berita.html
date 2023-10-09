@@ -1,149 +1,333 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/gallery.css">
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>Newsoft</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Raleway:400,600|Righteous&display=swap"
+    rel="stylesheet" />
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-    <section class="feature_section layout_padding">
-        <div class="container">
-          <h2 class="text-uppercase">
-            GALLERY
-          </h2>
-        </div>
-        <div class="">
-          <div class="feature_card-container layout_padding2">
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about.jpg" alt="" />
-                </div>
-              </div>
-            </div>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              Monas
+            </span>
+          </a>
 
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about14.jpg" alt="" />
-                </div>
-              </div>
-            </div>
+          <div class="navbar-collapse" id="">
 
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img height="400px" src="images/about12.jpg" alt="" />
-                </div>
-              </div>
-  
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
             </div>
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about13.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about15.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about6.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about7.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about8.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about9.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about10.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about11.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about2.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about3.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about4.jpg" alt="" />
-                </div>
-              </div>
-            </div>
-  
-            
-            <div class="feature_card">
-              <div class="feature_img-container">
-                <div class="feature_img-box">
-                  <img src="images/about5.jpg" alt="" />
-                </div>
+            <div id="myNav" class="overlay">
+              <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="caridata.html">Pencarian Data</a>
+                <a href="berita.html">gallery</a>
+                <a href="contact/contact.html">Teams</a>
               </div>
             </div>
           </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <section class="feature_section layout_padding">
+    <div class="container">
+      <h2 class="text-uppercase">
+        GALLERY
+      </h2>
+    </div>
+    <div class="">
+      <div class="feature_card-container layout_padding2">
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about.jpg" alt="" />
+            </div>
+          </div>
         </div>
-      </section>
-      <!-- end feature section -->
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about14.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img height="400px" src="images/about12.jpg" alt="" />
+            </div>
+          </div>
+
+        </div>
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about13.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about15.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about6.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about7.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about8.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about9.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about10.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about11.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about2.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about4.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="feature_card">
+          <div class="feature_img-container">
+            <div class="feature_img-box">
+              <img src="images/about5.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end feature section -->
+
+  <!-- info section -->
+  <section class="info_section layout_padding">
+    <div class="container info_content">
+      <div>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="d-flex">
+              <h5>
+                Contact Us
+              </h5>
+            </div>
+            <div class="d-flex ">
+              <ul>
+                <li>
+                  <a href="">
+                    Alamat  :
+                  </a>
+                </li>
+
+                <li>
+                  <a href="">
+                    No telp :
+                  </a>
+                </li>
+
+                <li>
+                  <a href="">
+                    Mail    :
+                  </a>
+                </li>
+              </ul>
+              <ul class="ml-3 ml-md-5">
+                <li>
+                  <a href="">
+                    jalan tgkh umar haji no.12
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                    087864074717
+                  </a>
+                </li>
+                <li>
+                  <a href="">
+                  rafiikbar110@gmail.com
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="d-flex">
+              <h5>
+                EXPLORE WEBSITE 
+              </h5>
+            </div>
+            <div class="d-flex ">
+              <ul>
+                <li>
+                  <a href="index.html">
+                    Monas
+                  </a>
+                </li>
+                <li>
+                  <a href="about.html">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="feature.html">
+                    feature
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="d-flex flex-column flex-lg-row justify-content-between align-items-center align-items-lg-baseline"
+      >
+        <div class="social-box">
+          <a href="">
+            <img src="images/fb.png" alt="" />
+          </a>
+
+          <a href="">
+            <img src="images/twitter.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/linkedin1.png" alt="" />
+          </a>
+          <a href="">
+            <img src="images/instagram1.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- end info section -->
+
+  <!-- footer section -->
+  <section class="container-fluid footer_section">
+    <p>
+      &copy; 2019 All Rights Reserved. Design by
+      <a href="https://html.design/">Free Html Templates</a>
+    </p>
+  </section>
+  <!-- footer section -->
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script>
+    function openNav() {
+      document.getElementById("myNav").classList.toggle("menu_width");
+      document
+        .querySelector(".custom_menu-btn")
+        .classList.toggle("menu_btn-style");
+    }
+  </script>
 </body>
+
 </html>

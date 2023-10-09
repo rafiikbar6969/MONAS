@@ -1,22 +1,20 @@
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background-color: #f7f7f7;
-    background: url(../images/data-background-5m07hblrxa41e1qa.jpg);
-  }
-  
+
   input[type="text"] {
     padding: 10px;
     font-size: 16px;
-    width: 200px;
+    width: 500px;
   }
-  .container{
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  .caridata{
     display: flex;
     justify-content: center;
-    padding-bottom: 10px;
-
+    margin-top: 20px;
   }
-  button {
+  .tombol {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -27,12 +25,15 @@ body {
     border-radius: 5px;
   }
   
-  button:hover {
+  .tombol:hover {
     background-color: #2980b9;
   }
   
   #displayArea {
     margin-top: 20px;
+    margin-left: 20%;
+    border: 3px solid black;
+    width: 32%;
   }
   
   .data-container:not(:last-child) {

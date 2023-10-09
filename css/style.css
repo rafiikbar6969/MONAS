@@ -38,7 +38,7 @@ body {
 
 .hero_area {
   background-color: #2801b9;
-  background-image: url(../images/hero.jpg);
+  background-image: url(../images/background2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -342,14 +342,16 @@ a:focus {
 /* about section */
 .about_section {
   margin-top: 45px;
-  text-align: center;
+  text-align: justify;
 }
 
 .about_section h2 {
+  text-align: center;
   text-transform: uppercase;
 }
 
 .about_section h4 {
+  text-align: center;
   font-size: 22px;
   font-weight: 600;
 }
@@ -393,6 +395,7 @@ a:focus {
 /* who section */
 .who_section {
   background-color: #2801b9;
+  padding: 50px;
 }
 
 .who_container {
@@ -408,8 +411,8 @@ a:focus {
 
 .who_section .who_img-box {
   background-color: #fff;
-  border-radius: 100%;
-  padding: 50px;
+  border-radius: 5px;
+  
   transform: scale(1.01) translateX(-10%);
   overflow: hidden;
   width: 60%;
