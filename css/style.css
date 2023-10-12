@@ -433,7 +433,7 @@ a:focus {
 .gallery{
   display: inline-block;
   background-color: #fddd33;
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   border-radius: 10px;
   padding: 5px 22px;
