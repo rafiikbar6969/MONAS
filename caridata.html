@@ -72,7 +72,7 @@
     <button class="tombol" id="searchButton" onclick="searchData()">Cari</button>
     <button class="tombol" id="downloadButton" onclick="downloadData()">Download Data</button>
     <button class="tombol" ><a href="data.html">data awal</a></button>
-    <button class="tombol" ><a href="https://api.whatsapp.com/send?phone=6281997805001" target="_blank">Kirim data ke samsat</a></button>
+    <button class="tombol" id="notifikasi" ><a  href="https://api.whatsapp.com/send?phone=6281997805001" target="_blank">Kirim data ke samsat</a></button>
 </div>
 <div id="displayArea">
     <!-- OUTPUT DATA -->
@@ -91,6 +91,11 @@
       document
         .querySelector(".custom_menu-btn")
         .classList.toggle("menu_btn-style");
+    }
+
+    const notifikasi = document.querySelector('#notifikasi a');
+    notifikasi.onclick = function(){
+      alert('Anda akan mengirim data anda pada whatsapp official samsat delivery');
     }
   </script>
 </body>
